@@ -1,0 +1,188 @@
+.tarefas {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+
+.tarefas-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-right: 120px;
+}
+
+.tarefas-header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 0.5rem;
+}
+
+.tarefas-header p {
+  color: var(--text-light);
+}
+
+.tarefas-toolbar {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.search-input {
+  flex: 1;
+  min-width: 250px;
+}
+
+.status-filter {
+  min-width: 150px;
+}
+
+.tarefas-count {
+  color: var(--text-light);
+  font-size: 0.875rem;
+  white-space: nowrap;
+}
+
+.tarefas-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.tarefa-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border);
+  transition: all 0.2s;
+}
+
+.tarefa-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.tarefa-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+
+.tarefa-title-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex: 1;
+}
+
+.tarefa-checkbox {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.tarefa-header h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--text);
+  flex: 1;
+}
+
+.tarefa-header h3.completed {
+  text-decoration: line-through;
+  color: var(--text-light);
+}
+
+.tarefa-status {
+  padding: 0.375rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.status-pending {
+  background: #fef3c7;
+  color: var(--warning);
+}
+
+.status-in-progress {
+  background: #dbeafe;
+  color: var(--info);
+}
+
+.status-completed {
+  background: #d1fae5;
+  color: var(--success);
+}
+
+.tarefa-description {
+  color: var(--text-light);
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.tarefa-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+
+.tarefa-meta {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  font-size: 0.875rem;
+  color: var(--text-light);
+}
+
+.tarefa-user {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.tarefa-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .tarefas-header {
+    padding-right: 0;
+  }
+
+  .tarefa-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .tarefa-footer {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .tarefa-actions {
+    width: 100%;
+    justify-content: stretch;
+  }
+
+  .tarefa-actions .btn {
+    flex: 1;
+  }
+}
+
