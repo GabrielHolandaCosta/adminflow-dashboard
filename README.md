@@ -1,5 +1,16 @@
 # 🧭 AdminFlow - Administrative Dashboard
 
+## 🚀 Quick Highlights for Recruiters
+- Fully responsive Admin Dashboard
+- Authentication + session persistence (localStorage)
+- Role-based access control (Admin/User)
+- Complete CRUD for Users and Tasks with business rules
+- Internationalization (pt-BR, en, es) with language persistence
+- Protected and admin-only routes
+- Tooltips and UI blocking for unauthorized actions
+- Built with React, TypeScript, Vite, Tailwind
+- Clean architecture and reusable components
+
 A front-end administrative dashboard with permission control, well-defined business rules, and focus on user experience. Developed with React, TypeScript, and Vite to demonstrate modern front-end development skills.
 
 ![AdminFlow](https://img.shields.io/badge/AdminFlow-Dashboard-blue)
