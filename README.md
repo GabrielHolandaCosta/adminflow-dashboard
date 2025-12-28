@@ -1,6 +1,6 @@
 # 🧭 AdminFlow - Administrative Dashboard
 
-## 🚀 Quick Highlights for Recruiters
+## 🚀 Quick Highlights
 - Fully responsive Admin Dashboard
 - Authentication + session persistence (localStorage)
 - Role-based access control (Admin/User)
