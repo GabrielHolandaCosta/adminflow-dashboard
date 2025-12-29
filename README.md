@@ -1,7 +1,12 @@
 # 🧭 AdminFlow - Administrative Dashboard
 
-🔗 **Live Demo:** https://adminflow-dashboard-ofjq.vercel.app  
-🔗 **Repository:** adminflow-dashboard
+<a href="https://adminflow-dashboard-ofjq.vercel.app" target="_blank">
+  <img src="https://img.shields.io/badge/Live%20Demo-Vercel-blue?logo=vercel" />
+</a>
+
+<a href="https://github.com/GabrielHolandaCosta/adminflow-dashboard" target="_blank">
+  <img src="https://img.shields.io/badge/Repository-GitHub-black?logo=github" />
+</a>
 
 ## 🚀 Quick Highlights
 - Fully responsive Admin Dashboard
