@@ -1,5 +1,8 @@
 # 🧭 AdminFlow - Administrative Dashboard
 
+🔗 **Live Demo:** https://adminflow-dashboard-ofjq.vercel.app  
+🔗 **Repository:** adminflow-dashboard
+
 ## 🚀 Quick Highlights
 - Fully responsive Admin Dashboard
 - Authentication + session persistence (localStorage)
