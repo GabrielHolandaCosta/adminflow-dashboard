@@ -158,13 +158,6 @@ export const Usuarios = () => {
     return false;
   };
 
-  const canChangeRole = (user: User): boolean => {
-    if (!currentUser) return false;
-    // Apenas admin pode alterar roles, mas não pode alterar role de admin
-    // E não pode alterar role ao editar (só na criação)
-    return currentUser.role === 'admin' && user.role !== 'admin';
-  };
-
   const filteredUsers = users.filter(
     (user) =>
       user.name.toLowerCase().includes(search.toLowerCase()) ||
