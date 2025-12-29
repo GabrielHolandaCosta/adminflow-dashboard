@@ -3,6 +3,18 @@
 🔗 <a href="https://adminflow-dashboard-ofjq.vercel.app" target="_blank">Live Demo (Vercel)</a>  
 🔗 <a href="https://github.com/GabrielHolandaCosta/adminflow-dashboard">GitHub Repository</a>
 
+## 📸 Project Preview
+
+<p align="center">
+  <img src="./public/preview1.png" width="45%" />
+  <img src="./public/preview2.png" width="45%" />
+</p>
+
+<p align="center">
+  <img src="./public/preview3.png" width="45%" />
+  <img src="./public/preview4.png" width="45%" />
+</p>
+
 ## 🚀 Quick Highlights
 - Fully responsive Admin Dashboard
 - Authentication + session persistence (localStorage)
